@@ -1,5 +1,5 @@
 import React from "react";
-import { Wallet, Grid, Ban, Settings, Home, PlusIcon, ChartNoAxesCombined } from "lucide-react";
+import { Home, PlusIcon, ChartNoAxesCombined } from "lucide-react";
 
 const FootBar = () => {
   return (

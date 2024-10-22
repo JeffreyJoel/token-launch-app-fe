@@ -1,8 +1,6 @@
-import CryptoList from "@/components/Home/CryptoList";
+import CryptoList from "@/components/home/CryptoList";
 import FootBar from "@/components/shared/FootBar";
 import NavBar from "@/components/shared/NavBar";
-import WalletConnect from "@/components/WalletConnect";
-import Image from "next/image";
 
 export default function Home() {
   return (

@@ -2,7 +2,6 @@
 
 import React, { useState } from 'react';
 import { Plus } from 'lucide-react';
-import Image from 'next/image';
 
 const CryptoList = () => {
   const [activeTab, setActiveTab] = useState('Coins');
@@ -122,7 +121,7 @@ const CryptoList = () => {
           >
             <div className="flex items-center gap-3">
               <div className={`w-10 h-10  rounded-full flex items-center justify-center text-white font-bold`}>
-            <Image src={item.icon} alt='' height={200} width={200}/>
+            <img src={item.icon} alt='' height={200} width={200}/>
               </div>
               <div>
                 <div className="font-semibold">{item.name}</div>
